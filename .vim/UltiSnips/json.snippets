@@ -1,0 +1,18 @@
+
+snippet dbgcpp "C++ Debugging Template" b
+{
+  "configurations": {
+    "Launch": {
+      "adapter": "CodeLLDB",
+      "configuration": {
+        "request": "launch",
+        "program": "$\{workspaceRoot\}/$1",
+        "args": [],
+        "cwd": "$\{workspaceRoot\}",
+        "externalConsole": true,
+        "MIMode": "lldb"
+      }
+    }
+  }
+}
+endsnippet
